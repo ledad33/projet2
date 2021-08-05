@@ -123,44 +123,6 @@ nav a:hover
 	display: none;
 }
 
-/* Filtres */
-
-#Filtres
-
-{
-    display: flex;
-    font-size: small;
-}
-
-.boutton1
-
-{
-    width: 150px;
-    s
-}
-
-
-.element
-
-{
-    width: 150px;
-    height: 100px;
-}
-
-.element:nth-child(1)
-{
-    background-color: orange;
-}
-
-.element:nth-child(2)
-{
-    background-color: blue;
-}
-
-.element:nth-child(3)
-{
-    background-color: #ad6;
-}
 
 /* Footer - pied de page */
 
