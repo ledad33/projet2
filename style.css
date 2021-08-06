@@ -122,6 +122,30 @@ nav a:hover
 #search p{
 	display: none;
 }
+#filtre-group{
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+    vertical-align: baseline;
+    font-size:small
+}
+
+#filtre-group ul{
+    display: flex;
+    align-items: center;
+}
+
+
+li{
+    list-style-type: none;
+    padding: 7px 10px 7px 8px;
+    list-style: none;
+    margin-right: 10px;
+	background-color: #ffffff;
+    color: rgb(0, 0, 0);
+	border: 1px solid #979a9e;
+	border-radius: 10px 10px 10px 10px; 
+}
 
 
 /* Footer - pied de page */
