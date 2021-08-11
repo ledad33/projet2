@@ -139,18 +139,6 @@ nav a:hover
     align-items: center;
 }
 
-
-/* #filtre-group li{
-    list-style-type: none;
-    padding: 7px 10px 7px 8px;
-    list-style: none;
-    margin-right: 10px;
-	background-color: #ffffff;
-    color: rgb(0, 0, 0);
-	border: 1px solid #979a9e;
-	border-radius: 10px 10px 10px 10px; 
-} */
-
 #filtre-group li{
 	list-style-type: none;
 	color: black;
@@ -175,7 +163,68 @@ nav a:hover
 	margin-right: 5px;
 }
 
+/* Section 1 */
 
+#first-section{
+	display: flex;
+	margin-bottom: 50px;
+}
+#hebergements{
+	flex: 3;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	padding: 15px 25px 15px 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#hebergements a{
+	margin-left: 25px;
+	font-family: 'Raleway Bold';
+	font-size: 0.8em;
+	text-decoration: none;
+}
+.title_hebergements{
+	margin-left: 10px;
+}
+/* miniature hébergements */
+#min-hebergements{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#min-hebergements article{
+	background-color: white;
+	padding: 5px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	line-height: 0.5em;
+}
+#min-hebergements img{
+	height: 110px;
+	width: 210px;
+	object-fit: cover;
+	position: 50% 50%;
+	border-radius: 15px 15px 0px 0px;
+}
+#min-hebergements h2{
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+#min-hebergements p{
+	margin-left: 10px;
+}
+#min-hebergements div{
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+#min-hebergements i{
+	font-size: 0.8em;
+	color: #0065FC;
+}
+#min-hebergements p i:last-of-type{
+	color: #F2F2F2;
+}
+/* Section 1 */
 
 /* Footer - pied de page */
 
