@@ -226,6 +226,67 @@ nav a:hover
 }
 /* Section 1 */
 
+/* Aside */
+
+#title-populaires{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+#title-populaires i{
+	float: inline-end;
+}
+#min-populaires{
+	flex: 2;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	padding: 15px 25px 15px 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/* miniature les plus populaires */
+#min-populaires{
+	display:  ;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#min-populaires article{
+	background-color: white;
+	padding: 5px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	line-height: 0.5em;
+}
+#min-populaire img{
+	height: 110px;
+	width: 210px;
+	object-fit: cover;
+	position: 50% 50%;
+	border-radius: 15px 15px 0px 0px;
+}
+#min-populaires h2{
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+#min-populaires p{
+	margin-left: 10px;
+}
+#min-populaires div{
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+#min-populaires i{
+	font-size: 0.8em;
+	color: #0065FC;
+}
+#min-populaires p i:last-of-type{
+	color: #F2F2F2;
+}
+
+/* Aside */
+
+
 /* Footer - pied de page */
 
 #nav footer
