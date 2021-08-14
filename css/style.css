@@ -169,122 +169,115 @@ nav a:hover
 	display: flex;
 	margin-bottom: 50px;
 }
+
+/* Hébergements */ 
+
 #hebergements{
-	flex: 3;
-	background-color: #F2F2F2;
-	border-radius: 15px;
-	padding: 15px 25px 15px 25px;
-	margin-left: 25px;
-	margin-right: 25px;
+flex: 3;
+background-color: #F2F2F2;
+border-radius: 15px;
+padding: 15px 25px 15px 25px;
+margin-left: 25px;
+margin-right: 25px;
 }
 #hebergements a{
-	margin-left: 25px;
-	font-family: 'Raleway Bold';
-	font-size: 0.8em;
-	text-decoration: none;
+margin-left: 25px;
+font-family: 'Raleway Bold';
+font-size: 0.8em;
+text-decoration: none;
 }
 .title_hebergements{
-	margin-left: 10px;
+margin-left: 10px;
 }
 /* miniature hébergements */
+
 #min-hebergements{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 #min-hebergements article{
-	background-color: white;
-	padding: 5px;
-	border-radius: 15px;
-	margin-bottom: 30px;
-	line-height: 0.5em;
+background-color: white;
+padding: 5px;
+border-radius: 15px;
+margin-bottom: 30px;
+line-height: 0.5em;
 }
 #min-hebergements img{
-	height: 110px;
-	width: 210px;
-	object-fit: cover;
-	position: 50% 50%;
-	border-radius: 15px 15px 0px 0px;
+height: 110px;
+width: 210px;
+object-fit: cover;
+position: 50% 50%;
+border-radius: 15px 15px 0px 0px;
 }
 #min-hebergements h2{
-	margin-left: 10px;
-	font-size: 0.8em;
+margin-left: 10px;
+font-size: 0.8em;
 }
 #min-hebergements p{
-	margin-left: 10px;
+margin-left: 10px;
 }
 #min-hebergements div{
-	margin-left: 10px;
-	font-size: 0.8em;
+margin-left: 10px;
+font-size: 0.8em;
 }
 #min-hebergements i{
-	font-size: 0.8em;
-	color: #0065FC;
+font-size: 0.8em;
+color: #0065FC;
 }
 #min-hebergements p i:last-of-type{
-	color: #F2F2F2;
+color: #F2F2F2;
 }
-/* Section 1 */
 
 /* Aside */
 
-#title-populaires{
-	display: flex;
-	margin-bottom: 50px;
-}
-
-#title-populaires i{
-	float: inline-end;
-}
-#min-populaires{
-	flex: 2;
+aside{
+	flex: 1.2;
+	position: relative;
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	padding: 15px 25px 15px 25px;
-	margin-left: 25px;
+	padding: 15px 20px 15px 20px;
 	margin-right: 25px;
-}
+	}
 
-/* miniature les plus populaires */
-#min-populaires{
-	display:  ;
+	#title-populaires{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	#min-populaires img {
+	height: 110px;
+	width: 110px;
+	object-fit: cover;
+	border-radius: 15px 0px 0px 15px;
+	}
+	#min-populaires article {
+	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-}
-#min-populaires article{
 	background-color: white;
 	padding: 5px;
 	border-radius: 15px;
+	margin-top: 20px;
 	margin-bottom: 30px;
-	line-height: 0.5em;
-}
-#min-populaires img{
-	height: 110px;
-	width: 210px;
-	object-fit: cover;
-	position: 50% 50%;
-	border-radius: 15px 15px 0px 0px;
-}
-#min-populaires h2{
-	margin-left: 10px;
+	line-height: 0.4em;
+	}
+	#min-populaires div{
+	padding-left: 15px;
+	}
+	#min-populaires h2{
 	font-size: 0.8em;
-}
-#min-populaires p{
-	margin-left: 10px;
-}
-#min-populaires div{
-	margin-left: 10px;
-	font-size: 0.8em;
-}
-#min-populaires i{
-	font-size: 0.8em;
-	color: #0065FC;
-}
-#min-populaires p i:last-of-type{
+	}
+	#min-populaires p i:last-of-type{
 	color: #F2F2F2;
-}
-
-/* Aside */
+	}
+	#min-populaires i{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	font-size: 0.7em;
+	color: #0065FC;
+	}
+	
 
 
 /* Footer - pied de page */
