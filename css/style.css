@@ -271,44 +271,103 @@ aside{
 	font-size: 0.7em;
 	color: #0065FC;
 	}
-	
+/* Section 2	 */
+
+.title_activites{
+	margin-left: 25px;
+}
+#activites{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+#activites h2{
+	margin-left: 10px;
+}
+.activites_solo{
+	height: 375px;
+	box-shadow: 2px 2px 4px 2px #F2F2F2;
+	border-radius: 15px;
+}
+.activites_solo img{
+	height: 325px;
+	width: 250px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+.activites_duo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.normal_img img{
+	height: 150px;
+	width: 250px;
+}
+.child_img img{
+	height: 100px;
+	width: 250px;
+}
+.activites_duo div{
+	box-shadow: 2px 2px 4px 2px #F2F2F2;
+	border-radius: 15px;
+	padding-bottom: 2px;
+}
+.activites_duo img{
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
 
 
 /* Footer - pied de page */
 
-#nav footer
+#footerbloc {
 
-nav ul
-{
-    list-style-type: none;
     display: flex;
-
-}
-
-nav li
-{
-       margin-right: 15px;
-       align-items:center;
-}
-
-nav a
-{
-    font-size: 1.1em;
-    color: #222324;
-    padding-bottom: 3px;
-    text decoration: none;
-}
-
-nav a:hover
-{
-    color: rgb(166, 255, 0);
+	justify-content:space-between;
+	width: 1200px;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+	padding: 15px 20px 15px 20px;
+	margin-right: 25px;
+	
 }
 
 /* Footer - Titre de menu */
 
-.gras
+.bloc-footer h1 {
+	font-family: 'Raleway Bold';
+	font-size: 0.8em;
+}
+
+/* Footer - Navigation */
+
+.bloc-footer nav ul
 {
-    display: flex;
-    font: bold;
-    vertical-align: text-top;
+    list-style-type: none;   
+	margin-right: 15px;
+    align-items:center;
+	text-decoration: blue;
+}
+
+.bloc-footer nav li
+{
+    list-style-type: none;   
+	margin-right: 15px;
+    align-items:center;
+	text-decoration:solid;
+}
+
+.bloc-footer nav a
+{
+    font-size: 1.1em;
+    color: #0f7fee;
+    padding-bottom: 3px;
+    text decoration: none;
+}
+
+.bloc-footer nav a:hover
+{
+    color: blue;
 }
