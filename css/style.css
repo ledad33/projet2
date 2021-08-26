@@ -580,12 +580,5 @@ aside{
 		   font-size: 1.3em;
 	}
 }
-/* Affichage Smartphone */
 
-@media screen and (min-width: 276px) 
-{
-	p 
-	{
-		
-	}		
-}
+
