@@ -374,7 +374,11 @@ aside{
 
 /* Affichage Mobile */
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 980px) {
+	p {
+		color: red;
+	}
+	
 	h2 {
 		   font-size: 2.5em;
 	}
