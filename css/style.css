@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 /* Design général */
 
@@ -373,57 +372,214 @@ aside{
     color: blue;
 }
 
-/* Affichage Tablette */
+/* Affichage Mobile */
 
-@media screen and  (max-width: 576px) 
-{
-		 #nav li
-	{	
-		display: flex;
-		flex-wrap: wrap;
-		color: red;
-		font-size: 1.2em;
+@media screen and (max-device-width: 480px) {
+	h2 {
+		   font-size: 2.5em;
 	}
-	#filtre-group ul{
-		display: flex;
-		list-style-type: none;
-		flex-wrap: wrap;
+	#bloc-page {
+		   width: auto;
 	}
-	#first-section{
-		display: flex;
-		order: 1;
+	#logo {
+		   display: flex;
+		   align-items: center;
+		   margin-bottom: 15px;
 	}
-	aside{
-		display: flex;
-		flex: 1.1;
-		position: relative;
-		background-color: #F2F2F2;
-		border-radius: 15px;
-		padding: 15px 20px 15px 20px;
-		margin-right: auto;
-		}
-	#bloc-page 
-	{
-	width: 100%;
-	margin: auto;
+	#logo img {
+		   height: 100px;
+		   width: auto;
 	}
-	#min-populaires{
-		display: flex;
-		flex-wrap: wrap;
-		
+	#logo a {
+		   margin-left: 500px;
+		   font-size: 2.8em;
+		   visibility: visible;
+		   color: #0065FC;
+		   font-weight: bold;
 	}
-
-	#footerbloc {
-
-		display: flex;
-		flex-direction: column;
-		align-items: left;
-		justify-content: flex-start;
-			
+	header {
+		   flex-direction: column;
+		   align-items: flex-start;
 	}
-} 
-
-
+	nav ul {
+		   padding-right: 200px;
+		   padding-bottom: 25px;
+		   border-bottom: 5px solid #F2F2F2;
+	}
+	nav a {
+		   margin-left: 100px;
+		   font-size: 3em;
+	}
+	nav a:hover {
+		   color: #0065FC;
+		   border-top: 0px;
+	}
+	.inscription {
+		   display: none;
+	}
+	#description p {
+		   font-size: 0.7em;
+	}
+	#search {
+		   margin-top: 50px;
+	}
+	#search input {
+		   font-size: 3em;
+		   padding: 20px;
+	}
+	#search i {
+		   font-size: 2.5em;
+		   padding: 30px;
+	}
+	.search_icon i {
+		   visibility: visible;
+		   color: white;
+		   background-color: #0065FC;
+		   border: 1px solid #0065FC;
+		   border-radius: 10px 10px 10px 10px;
+	}
+	#search button {
+		   display: none;
+	}
+	#filtre-group {
+		   flex-direction: column;
+		   align-items: flex-start;
+	}
+	#filtre-group p {
+		   font-size: 2.8em;
+	}
+	#filtre-group ul {
+		   flex-wrap: wrap;
+		   margin-left: -50px;
+	}
+	#filtre-group li {
+		   margin-bottom: 30px;
+		   border-radius: 40px;
+		   font-size: 2.8em;
+	}
+	#filtre-group i {
+		   padding: 20px;
+		   border-radius: 40px;
+		   margin: auto;
+	}
+	#info {
+		   margin: 50px 0px 50px 0px;
+	}
+	#info i {
+		   padding: 15px 20px 15px 20px;
+	}
+	#info p {
+		   margin-left: 15px;
+	}
+	#first-section {
+		   flex-direction: column-reverse;
+	}
+	#hebergements {
+		   background-color: white;
+	}
+	.title_hebergements {
+		   margin-left: 40px;
+		   font-size: 3.5em;
+	}
+	#hebergements a {
+		   margin-left: 40px;
+		   font-size: 2.5em;
+	}
+	#min-hebergements article {
+		   margin-left: 80px;
+		   height: auto;
+		   width: auto;
+		   padding: 10px;
+		   border-radius: 40px;
+		   line-height: 1em;
+		   box-shadow: 10px 10px 15px 10px #F2F2F2;
+	}
+	#min-hebergements img {
+		   height: 350px;
+		   width: 850px;
+		   border-radius: 40px 40px 0px 0px;
+	}
+	#min-hebergements h2 {
+		   margin-left: 10px;
+		   font-size: 1.5em;
+	}
+	#min-hebergements p {
+		   margin-left: 10px;
+	}
+	#min-hebergements i {
+		   margin-bottom: 10px;
+	}
+	aside {
+		   width: 100%;
+		   margin: auto;
+		   padding: 40px;
+		   border-radius: 0px;
+	}
+	#title-populaires h2,
+	#title-populaires i {
+		   font-size: 3em;
+	}
+	#min-populaires article {
+		   margin: auto;
+		   width: 850px;
+		   margin-bottom: 30px;
+		   padding: 10px;
+		   border-radius: 40px;
+	}
+	#min-populaires img {
+		   height: 350px;
+		   width: 350px;
+		   border-radius: 40px 0px 0px 40px;
+	}
+	#min-populaires h2 {
+		   font-size: 2.8em;
+	}
+	#min-populaires p {
+		   font-size: 2.5em;
+	}
+	#min-populaires i {
+		   margin-top: 100px;
+	}
+	.stars {
+		   font-size: 2.5em;
+	}
+	#activites {
+		   margin-left: 40px;
+		   width: 100%;
+		   flex-direction: column;
+		   justify-content: center;
+		   align-items: center;
+	}
+	.title_activites {
+		   margin-left: 100px;
+		   margin-bottom: 50px;
+	}
+	#activites h2 {
+		   margin-left: 40px;
+	}
+	.activites_solo,
+	.activites_duo div {
+		   height: auto;
+		   width: 850px;
+		   margin-bottom: 50px;
+		   border-radius: 40px;
+		   line-height: 1em;
+		   box-shadow: 10px 10px 15px 10px #F2F2F2;
+	}
+	.activites_solo img,
+	.activites_duo img {
+		   height: 350px;
+		   width: 850px;
+		   border-radius: 40px 40px 0px 0px;
+	}
+	footer {
+		   width: 100%;
+		   padding-right: 50px;
+		   flex-direction: column;
+		   align-items: flex-start;
+		   font-size: 1.3em;
+	}
+}
 /* Affichage Smartphone */
 
 @media screen and (min-width: 276px) 
