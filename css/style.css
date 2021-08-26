@@ -372,6 +372,10 @@ aside{
     color: blue;
 }
 
+/* Affichage Tablette */
+
+@media screen and (min-width: 954px) 
+
 /* Affichage Mobile */
 
 @media screen and (max-device-width: 480px) {
@@ -580,12 +584,5 @@ aside{
 		   font-size: 1.3em;
 	}
 }
-/* Affichage Smartphone */
 
-@media screen and (min-width: 276px) 
-{
-	p 
-	{
-		
-	}		
-}
+
