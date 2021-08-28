@@ -374,7 +374,7 @@ aside{
 
 /* Affichage Mobile */
 
-@media screen and (max-device-width: 980px) {
+@media screen and (min-device-width: 768px) {
 	p {
 		color: red;
 	}

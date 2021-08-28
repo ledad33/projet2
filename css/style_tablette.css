@@ -1,6 +1,6 @@
-/* Affichage Mobile */
+/* Affichage tablette */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	p {
 		color: red;
 	}
