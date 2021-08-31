@@ -1,8 +1,8 @@
 /* Affichage Mobile */
 
-@media screen and (min-device-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	p {
-		color: red;
+		color: rgb(189, 218, 29);
 	}
 	
 	h2 {
