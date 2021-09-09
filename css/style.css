@@ -1,19 +1,19 @@
 
 @font-face{
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-Variable.ttf') format('truetype');
+	src: url('css/fonts/Raleway-Variable.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'Raleway Italic';
-	src: url('fonts/Raleway-Italic.ttf') format('truetype');
+	src: url('css/fonts/Raleway-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'Raleway Bold';
-	src: url('fonts/Raleway-Bold.ttf') format('truetype');
+	src: url('css/fonts/Raleway-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -174,8 +174,10 @@ nav a:hover{
 	margin-left: 25px;
 	font-family: 'Raleway Bold';
 	font-size: 0.8em;
-	text-decoration: none;
+	text-decoration: black;
+	color: black;
 }
+
 .title_hebergements{
 	margin-left: 10px;
 }
@@ -196,7 +198,7 @@ nav a:hover{
 	height: 110px;
 	width: 210px;
 	object-fit: cover;
-	position: 50% 50%;
+	position: auto;
 	border-radius: 15px 15px 0px 0px;
 }
 #min-hebergements h2{
@@ -331,8 +333,8 @@ footer h2, footer p{
 /* mobile */
 @media screen and (max-width: 480px){
 	h2{
-		font-size: 2.5em;
-	}
+		font-size: 1.0em;
+			}
 	#bloc-page{
 		width: auto;
 	}
@@ -373,7 +375,7 @@ footer h2, footer p{
 		display: none;
 	}
 	#description p{
-		font-size: 0.7em;
+		font-size: 1.4em;
 	}
 	#search{
 		margin-top: 50px;
@@ -438,7 +440,7 @@ footer h2, footer p{
 	}
 	#hebergements a{
 		margin-left: 40px;
-		font-size: 2.5em;
+		font-size: 1.0em;
 	}
 	#min-hebergements article{
 		margin-left: 80px;
