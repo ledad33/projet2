@@ -329,7 +329,7 @@ footer h2, footer p{
 	text-decoration: none;
 }
 /* mobile */
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 480px){
 	h2{
 		font-size: 2.5em;
 	}
@@ -534,7 +534,7 @@ footer h2, footer p{
 	}
 }
 /* tablette */
-@media screen and (min-device-width: 480px) and (max-width: 991px){
+@media screen and (min-width: 480px) and (max-width: 991px){
 	#bloc-page{
 		width: auto;
 	}
