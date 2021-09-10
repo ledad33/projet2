@@ -196,7 +196,7 @@ nav a:hover{
 	height: 110px;
 	width: 210px;
 	object-fit: cover;
-	position: relative;
+	position: sticky;
 	border-radius: 15px 15px 0px 0px;
 }
 #min-hebergements h2{
