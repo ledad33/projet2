@@ -103,7 +103,6 @@ nav a:hover{
 #search input{
 	padding: 7px;
 	border: 1px solid #F2F2F2;
-	font-style: bold;
 }
 #search button{
 	padding: 7px 10px 7px 8px;
@@ -437,7 +436,9 @@ footer h2, footer p{
 	}
 	#hebergements{
 		background-color: white;
-		position: relative;
+		position:relative;
+		right: 10px;
+		left: 10px;
 	}
 	.title_hebergements{
 		margin-left: 40px;
