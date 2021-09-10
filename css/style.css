@@ -173,8 +173,8 @@ nav a:hover{
 	margin-left: 25px;
 	font-family: 'Raleway Bold';
 	font-size: 0.8em;
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 .title_hebergements{
 	margin-left: 10px;
@@ -196,7 +196,7 @@ nav a:hover{
 	height: 110px;
 	width: 210px;
 	object-fit: cover;
-	position: relative;
+	position: 50% 50%;
 	border-radius: 15px 15px 0px 0px;
 }
 #min-hebergements h2{
@@ -245,7 +245,7 @@ aside{
 	border-radius: 15px;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	line-height: 1.0em;
+	line-height: 0.4em;
 }
 #min-populaires div{
 	padding-left: 15px;
@@ -329,12 +329,12 @@ footer h2, footer p{
 	text-decoration: none;
 }
 /* mobile */
-@media screen and (max-width: 480px){
+@media screen and (max-device-width: 480px){
 	h2{
-		font-size: 3.0em;
+		font-size: 2.5em;
 	}
 	#bloc-page{
-		width:fit-content;
+		width: auto;
 	}
 	#logo{
 		display: flex;
@@ -365,7 +365,6 @@ footer h2, footer p{
 		margin-left: 100px;
 		font-size: 3em;
 	}
-	
 	nav a:hover{
 		color: #0065FC;
 		border-top: 0px;
@@ -374,8 +373,7 @@ footer h2, footer p{
 		display: none;
 	}
 	#description p{
-		font-size: 2.4em;
-		justify-content: space-around;
+		font-size: 0.7em;
 	}
 	#search{
 		margin-top: 50px;
@@ -427,8 +425,6 @@ footer h2, footer p{
 	}
 	#info p{
 		margin-left: 15px;
-		color: black;
-		font-size: 2.4em;
 	}
 	#first-section{
 		flex-direction: column-reverse;
@@ -460,20 +456,13 @@ footer h2, footer p{
 	}
 	#min-hebergements h2{
 		margin-left: 10px;
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 	#min-hebergements p{
 		margin-left: 10px;
 	}
 	#min-hebergements i{
 		margin-bottom: 10px;
-	}
-	#min-hebergements div {
-		margin-left: 10px;
-		font-size: 1.8em;
-	}
-	body p {
-		font-size: 1.6em;
 	}
 	aside{
 		width: 100%;
@@ -504,12 +493,6 @@ footer h2, footer p{
 	}
 	#min-populaires i{
 		margin-top: 100px;
-	}
-	#min-populaires {
-		width: fit-content;
-	}
-	#min-populaires div {
-		padding-left: 46px;
 	}
 	.stars{
 		font-size: 2.5em;
@@ -543,20 +526,15 @@ footer h2, footer p{
 		border-radius: 40px 40px 0px 0px;
 	}
 	footer{
-		display: flex;
-		width: 1100px;
+		width: 100%;
 		padding-right: 50px;
 		flex-direction: column;
 		align-items: flex-start;
 		font-size: 1.3em;
 	}
-	footer div {
-		margin-left: 10px;
-		margin-right: -200px;
-	}
 }
 /* tablette */
-@media screen and (min-width: 480px) and (max-width: 991px){
+@media screen and (min-device-width: 480px) and (max-width: 991px){
 	#bloc-page{
 		width: auto;
 	}
