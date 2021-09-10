@@ -199,7 +199,6 @@ nav a:hover{
 	width: 210px;
 	object-fit: cover;
 	position: sticky;
-	border-radius: 15px 15px 0px 0px;
 }
 #min-hebergements h2{
 	margin-left: 10px;
@@ -438,6 +437,7 @@ footer h2, footer p{
 	}
 	#hebergements{
 		background-color: white;
+		position: relative;
 	}
 	.title_hebergements{
 		margin-left: 40px;
