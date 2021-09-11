@@ -443,13 +443,13 @@ footer ul
     }
     h1 
     {
-        font-size:2.2em;
+        font-size:1.4em;
     }
     h2
     {
-        font-size:2em;
+        font-size: 1.2em;
         flex-wrap: wrap;
-        margin-left: 15px;
+        margin-left: 5px;
     }
     h3
     {
@@ -549,7 +549,7 @@ footer ul
     }
     Input
     {
-        font-size: 1.3em;
+        font-size: 1.0em;
     }
     Input,value
     {
@@ -563,7 +563,7 @@ footer ul
     }
     #filtre a
     {
-        font-size: 1.5em;
+        font-size: 1.0 em;
         border: 2px solid #d9d9d9;
         margin-bottom: 10px;
     }
@@ -648,7 +648,7 @@ footer ul
     }
     #titrepopulaire i
     {
-        font-size: 3em;
+        font-size: 2.0em;
     }
     #cadrepopulaire .photo
     {
@@ -673,8 +673,8 @@ footer ul
     }
     #cadrepopulaire .photo .descriptions h3
     {
-        font-size: 1.2em; 
-        line-height:0.8em;
+        font-size: 1.0em; 
+        line-height:1.2em;
         margin-bottom: 5px;
     }
     #cadrepopulaire p
