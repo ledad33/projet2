@@ -702,7 +702,7 @@ footer ul
  
         width:100%;
         height:auto ;
-        margin-bottom: 20px;
+        margin-bottom:-20px;
     }
     #section3 a
     {
@@ -730,7 +730,7 @@ footer ul
     #cadreactivite .photo img
     {
         height:auto;
-        max-height:none;
+        max-height:130px;
         object-fit: cover;
         width:100%;
     }
@@ -749,7 +749,7 @@ footer ul
     {
         height:auto;
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: -60px;
     }
     #cadreactivite a:nth-child(3n+1) img 
     {
@@ -833,6 +833,7 @@ footer ul
         width:100%;
         margin:auto;
         height:auto;
+        margin-bottom: 10%;
     }
     #section3 a
     {
@@ -841,16 +842,24 @@ footer ul
     #cadreactivite .photo
     {
         height:auto;
-        margin-bottom: 40px;
+        margin-bottom: 5px;
     }
     #cadreactivite img
     {
         height:auto;
-        min-height: 345px;
+        min-height: 150px;
+        padding-bottom:-40px;
     }
     #cadreactivite a:nth-child(3n+1) img
     {
-        min-height: 345px;
+        width: 95%;
+        min-height:130px;
+        object-fit: cover;
+        align-items: center;
+        margin-right: 5px;
+        margin-left: 6px;
+        padding-bottom:-40px;
+        padding-top: -100px;
     }
     #cadreactivite
     {
